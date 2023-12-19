@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Predict the Result</title>
+		<meta charset = "utf-8">
+		<style>
+			body{
+				background-color: #EAEAEA;
+				color: #636363;
+			}
+			#wrapper{
+				background-color: #D5EdB3;
+				height: 100vh;
+			}
+			header{
+				color: #FFFFFF;
+				text-align: center;
+				text-shadow: 3px 3px 3px #333; 
+			}
+			nav ul{
+				display: flex;
+				flex-wrap: wrap;
+				list-style-type: none;
+				padding-left: 0;
+			}
+			nav ul li{
+				width: 100%;
+				padding: .5em;
+				text-align: center;
+				border-bottom: 1px solid #636363;
+			}
+			nav ul li a{
+				display: block;
+				text-decoration: none;
+			}
+			main{
+				padding: 1em 2em;
+			}
+			@media( min-width: 600px ){
+				header{
+					grid-area: header;
+				}
+
+				nav{
+					display: grid;
+					grid-template-areas: "nav header", "nav main";
+				}
+
+				main{
+					grid-area: main;
+				}
+
+				#wrapper{
+					display: grid;
+					grid-template-columns: 150px 1fr;
+					grid-template-rows: 100px 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "wrapper">
+			<header>
+				<h1>Trillium Media Design</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "products.html">Products</a></li>
+					<li><a href = "services.html">Services</a></li>
+					<li><a href = "clients.html">Clients</a></li>
+					<li><a href = "contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<main>
+				<p>Our professional staff takes pride in its working relationship with our clients by offering personalized services that listen to their needs, develop their target areas, and incorporate these items into a website that works.</p>
+			</main>
+		</div>
+	</body>
+</html>

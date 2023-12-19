@@ -1,0 +1,8 @@
+The code provided is for a web page titled Trillium Media Design. The web page has a dark blue background color with a light gray text. 
+The default font for the webiste is Arial or sans-serif font depending on the availiablity. The page has two links and they link to a page called About and another called Services.
+
+The site also has a paragrah that states "Our professional staff takes pride in its working relationship with our clients by offering personalized services that listen to their needs, develop their target areas, and incorporate these items into a website that works."
+in the body. 
+
+
+and in the footer of the page, it has a copyright tag for Trillium Media Design 

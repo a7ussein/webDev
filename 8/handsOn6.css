@@ -1,0 +1,60 @@
+/* question 1 */
+#floatID{
+    float: left;
+    background-color: tan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    padding: 20px;
+}
+/* question 2 */
+
+.dottedLine{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: blue;
+    border-bottom: 1px dotted blue;
+}
+/* question 3 */
+
+#absloutelyPosition{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: lightgray;
+    border: solid;
+
+}
+/* question 4 */
+
+#relativelyPositioned{
+    position: relative;
+    left: 15px;
+    background-color: lightgreen;
+}
+/* question 5 */
+#fixedPosition{
+    position: fixed;
+    top: 0;
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 10px;
+} 
+
+/* question 6 */
+
+ul {
+    list-style-image: url('myimage.gif');
+}
+
+/* question 7 */
+ul {
+    list-style-type: square;
+}
+
+/* question 11 */
+.spriteLink {
+    background-image: url('mysprite.gif');
+    background-position: 0 67px; 
+    padding-left: 20px;
+}
+
